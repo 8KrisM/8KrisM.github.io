@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Hi there 👋
 
 This is my new repository. Little by little I upload my older school and personal projects but also my new projects.  
