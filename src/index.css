@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Exo 2');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+  font-family: 'Exo 2';
+  color: white;
+  background-image: linear-gradient(to right bottom, #100454, #062363, #056686, #057b96);
+}
+
+@keyframes write {
+  0% {
+    stroke-dashoffset: 3000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.written {
+  stroke-dasharray: 3000;
+  animation: 5s write;
+}
+
+.glassmorphism{
+  background: rgba(0, 0, 0, 0.185);
+  box-shadow: 0 8px 32px 0 rgba(2, 76, 146, 0.215);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+}
+
+.navbar-button{
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-button::before{
+  content: "";
+  position:absolute;
+  background: white;
+  width: 20px;
+  height: 4px;
+  bottom:-2px;
+  border-radius: 3px;
+  transition: width 0.2s ease-in;
+}
+
+.navbar-button:hover::before{
+  background: white;
+  width: 100%;
+}
+
+
+@keyframes opacity-frames{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.animate-opacity{
+  animation: opacity-frames 2s ease-in;
+}
+
+.projects{
+  perspective: 1500px;
+}
+
+.image-3d-left, .image-3d-right{
+  box-shadow: -5px 5px 10px black;
+}
+
+
+@media (min-width: 768px){
+  .image-3d-left, .image-3d-right{
+    transform: rotateY(15deg) rotateX(10deg);
+    box-shadow: -20px 20px 40px black;
+  }
+
+  .image-3d-right{
+    transform: rotateY(-8deg) rotateX(20deg);
+    box-shadow: 18px 18px 40px black;
+  }
+
+  .image-3d-left:hover{
+    transform: rotateY(10deg) rotateX(8deg) scale(1.03);
+    box-shadow: -20px 20px 40px black;
+  }
+
+  .image-3d-right:hover{
+    transform: rotateY(-5deg) rotateX(8deg) scale(1.03);
+    box-shadow: 20px 20px 50px black;
+  }
+}
