@@ -14,7 +14,7 @@ const Contact = () => {
                 </div>
                 <div className='flex gap-2 items-center'>
                     <img src='/at.svg' alt='email' className='h-6'/>
-                    michalikkristian8@email.com
+                    michalikkristian8@gmail.com
                 </div>
             </div>
     </div>
