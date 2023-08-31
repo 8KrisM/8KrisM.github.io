@@ -12,10 +12,11 @@ const Contact = () => {
                     <img src='/facebook.svg' alt='facebook' className='h-6'/>
                     <a className='hover:scale-105 transition-all' href='https://www.facebook.com/Kristian.Michalik8'>Facebook</a>
                 </div>
-                <div className='flex gap-2 items-center'>
+                <div className='flex gap-2 items-center mb-7'>
                     <img src='/at.svg' alt='email' className='h-6'/>
                     michalikkristian8@gmail.com
                 </div>
+                <a className='glassmorphism main-button' href="/resume_eng.pdf" download="resume_michalik">Download resume</a>
             </div>
     </div>
   )

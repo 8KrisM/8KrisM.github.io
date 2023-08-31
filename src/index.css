@@ -87,6 +87,9 @@ body{
   box-shadow: -5px 5px 10px black;
 }
 
+.main-button{
+  @apply hover:bg-black hover:cursor-pointer hover:scale-105 px-6 py-3 mt-10;
+}
 
 @media (min-width: 768px){
   .image-3d-left, .image-3d-right{

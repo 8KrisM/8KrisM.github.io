@@ -28,7 +28,7 @@ const Projects = () => {
                 Players can register, add comments, rate the game, and if they are good enough they can join the leaderboard!
             </p>
             </div>
-            <div className='mt-10'><a href='https://github.com/8KrisM' className='glassmorphism hover:bg-black hover:scale-105 px-6 py-3 mt-10'>See more on my GitHub</a></div>
+            <div className='mt-10'><a href='https://github.com/8KrisM' className='glassmorphism main-button'>See more on my GitHub</a></div>
         </div>
 
     </div>
