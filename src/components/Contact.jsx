@@ -12,7 +12,6 @@ const Contact = () => {
                     <img src='/at.svg' alt='email' className='h-6'/>
                     michalikkristian8@gmail.com
                 </div>
-                <a className='glassmorphism main-button' href="/resume_eng.pdf" download="resume_michalik">Download resume</a>
             </div>
     </div>
   )
