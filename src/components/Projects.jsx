@@ -6,19 +6,18 @@ const Projects = () => {
         <h3 className="text-4xl font-bold md:text-7xl mb-10">My projects</h3>
         <div className="projects flex-col md:px-8 space-y-4">
             <div className='p-2 space-y-5'>
-                <h4 className='text-4xl'>Full stack booking app (WIP)</h4>
+                <h4 className='text-4xl'>System for managing and automated testing of programming assignments at a secondary school</h4>
                 <div className='flex p-3'>
                     <div className='w-full flex flex-col md:flex-row items-start md:space-x-7'>
                         <ReactCompareSlider className=" image-3d-left relative -top-1 transition-all rounded-xl"
-                            itemOne={<ReactCompareSliderImage src="lets-travel-home-light.png" alt="light" />}
-                            itemTwo={<ReactCompareSliderImage src="lets-travel-home-dark.png" alt="dark" />}
+                            itemOne={<ReactCompareSliderImage src="8krism.site_light.png" alt="light" />}
+                            itemTwo={<ReactCompareSliderImage src="8krism.site_dark.png" alt="dark" />}
                         />
-                        <img src='lets-travel-home-phone.png' alt="phone" className='image-3d-right w-full md:w-[21%] relative -bottom-2 transition-all rounded-xl'/>
                     </div>
                 </div>
-                <p>Personal full stack project, with React front-end and back-end built with Node.js, Express.js and MongoDB.
-                It allows you to browse accomodations, book one or if you want to rent out your own accomodation you can do so after adding it in your profile.
-                Fully responsive, so you can book your next adventure from any device. Uses Google Maps API.
+                <p>Designed and implemented a system for automated testing of programming assignments at a secondary school. The system is a web application, built with React on front-end and Express.js on backend.
+                    Has a PostgreSQL database and assignments are executed in Docker containers. The system allows teachers to create assignments, students to submit their solutions, and teachers can easily test and grade them.
+                    Application is deployed via Docker Compose. 
             </p>
             </div>
             <div className='p-2 space-y-5'>
