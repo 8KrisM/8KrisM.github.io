@@ -9,7 +9,7 @@ const Projects = () => {
                 <h4 className='text-4xl'>System for managing and automated testing of programming assignments at a secondary school</h4>
                 <div className='flex p-3'>
                     <div className='w-full flex flex-col md:flex-row items-start md:space-x-7'>
-                        <ReactCompareSlider className=" image-3d-left relative -top-1 transition-all rounded-xl"
+                        <ReactCompareSlider className=" image-3d-left relative -top-1 md:w-[60%] transition-all rounded-xl"
                             itemOne={<ReactCompareSliderImage src="8krism.site_light.png" alt="light" />}
                             itemTwo={<ReactCompareSliderImage src="8krism.site_dark.png" alt="dark" />}
                         />
